@@ -1,0 +1,129 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply some basic styling to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+        background-image: url(Image/_b04501d7-67b7-4973-a9cc-8641d9982649.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+    
+}
+
+/* Style the header */
+h1 {
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+    color: #000000;
+    background: linear-gradient(60deg, #b8c0ca 0%, #cdc9a4 100%);
+    opacity: 0.75;
+}
+
+/* Style the paragraph */
+p {
+    font-size: 20px;
+    color: #000000;
+    background: whitesmoke;
+}
+
+/* Style the image */
+.money-img {
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+}
+
+/* Style the container */
+.container {
+    background-color: #c2e0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(31, 32, 32, 0.989);
+    margin: 20px;
+}
+
+/* Style the currency and input elements */
+.currency {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+select, input {
+    height: 40px;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the swap button */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the rate */
+.rate {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Add hover effect to select elements */
+select:hover {
+    border: 1px solid #007bff;
+}
+
+/* Style the footer */
+.footer {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    select, input {
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .rate {
+        font-size: 18px;
+    }
+}
